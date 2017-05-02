@@ -1,6 +1,6 @@
 number = input("Give me a number... ")
 
-my_list = range(1, number+1)
+my_list = range(1, number + 1)
 
 divisors = []
 
