@@ -1,7 +1,7 @@
-word = str(input("Type a word... "))
+word = str(raw_input("Type a word... "))
 length = int(len(word))
-print(length)
-length = length + 1
+print("The length of this word is " + str(length))
+# length = length + 1
 test = 0
 
 
@@ -13,16 +13,18 @@ else:
     midpoint = (length / 2) + 1
     print ("The midpoint is " + str(midpoint) + "\n")
 
+last = length
+print("First is " + word[0])
+print("Last is " + word[last-1])
 
 # Let's compare the first and the last characters, and move towards the midpoint
-for l in range(1,midpoint):
- last = length - l
- print(word[last])
- if word[l] == word[last]:
-    test = test + 1
-    print(test)
- else:
-        print("Not a palyndrome")
+for l in range(0,midpoint-1):
+    while test != midpoint:
+        if word[last-1-l] == word[l]:
+            test = test + 1
+            print(test)
+        else:
+            print("Not a palyndrome")
 
 if test == midpoint:
     print("This is a palyndrome")
