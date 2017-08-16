@@ -18,16 +18,12 @@ print("First is " + word[0])
 print("Last is " + word[last-1])
 
 # Let's compare the first and the last characters, and move towards the midpoint
-for l in range(0,midpoint-1):
-    while test != midpoint:
-        if word[last-1-l] == word[l]:
-            test = test + 1
-            print(test)
-        else:
-            print("Not a palyndrome")
+for l in range(0,midpoint):
+    if word[l] == word[last-1-l]:
+        test = test + 1
 
 if test == midpoint:
     print("This is a palyndrome")
-else:
-    print ("This is not a palyndrome")
 
+if test == 1:
+    print ("This is not a palyndrome")
