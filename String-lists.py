@@ -14,17 +14,21 @@ else:
 
 # Two checks to see if my indexing was correct
 # print("First is " + word[0])
-# print("Last is " + word[last-1])
+# print("Last is " + word[length-1])
 
 # Let's compare the first and the last characters, and move towards the midpoint
 for l in range(0,midpoint):
     if word[l] == word[length-1-l]:
         test = test + 1
 
+# If the word is one letter, we can't consider this a word
+if length == 1:
+    print("This is a letter, not a word.")
+
 # If the test was positive for all letters from the first to the midpoint, then it is a palyndrome
-if test == midpoint:
+if test == midpoint and length > 1:
     print("This is a palindrome.")
 
 # Even if a word is not a palyndrome, the middle letter will match against itself and test will be, at a minimum, 1.
-if test == 1:
+if test == 1 and length > 1:
     print ("This is not a palindrome.")
