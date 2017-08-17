@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c38d3657-e962-4e32-a7dc-0da4e498bb02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String-lists.py" afterPath="$PROJECT_DIR$/String-lists.py" />
-    </list>
+    <list default="true" id="c38d3657-e962-4e32-a7dc-0da4e498bb02" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="String-lists.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/String-lists.py">
+      <file leaf-file-name="List-comprehension.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/List-comprehension.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,6 +43,7 @@
         <option value="$PROJECT_DIR$/character-input.py" />
         <option value="$PROJECT_DIR$/odd-or-even-2.py" />
         <option value="$PROJECT_DIR$/String-lists.py" />
+        <option value="$PROJECT_DIR$/List-comprehension.py" />
       </list>
     </option>
   </component>
@@ -55,6 +52,9 @@
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="964" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -71,7 +71,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PyCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCharm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -91,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.String-lists">
+  <component name="RunManager" selected="Python.List-comprehension">
     <configuration name="Divisors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +119,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="List-less-than-ten" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="List-comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -121,7 +131,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List-less-than-ten.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List-comprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,19 +335,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.List-less-than-ten" />
-      <item index="1" class="java.lang.String" itemvalue="Python.character-input" />
-      <item index="2" class="java.lang.String" itemvalue="Python.odd-or-even-2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Divisors" />
-      <item index="4" class="java.lang.String" itemvalue="Python.String-lists" />
+      <item index="0" class="java.lang.String" itemvalue="Python.character-input" />
+      <item index="1" class="java.lang.String" itemvalue="Python.odd-or-even-2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Divisors" />
+      <item index="3" class="java.lang.String" itemvalue="Python.String-lists" />
+      <item index="4" class="java.lang.String" itemvalue="Python.List-comprehension" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.String-lists" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Divisors" />
-        <item index="2" class="java.lang.String" itemvalue="Python.odd-or-even-2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.character-input" />
-        <item index="4" class="java.lang.String" itemvalue="Python.List-less-than-ten" />
+        <item index="0" class="java.lang.String" itemvalue="Python.List-comprehension" />
+        <item index="1" class="java.lang.String" itemvalue="Python.String-lists" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Divisors" />
+        <item index="3" class="java.lang.String" itemvalue="Python.odd-or-even-2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.character-input" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +359,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="23" width="1400" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26067746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,6 +515,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List-comprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
