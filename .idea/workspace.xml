@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Check-primality-functions.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Check-primality-functions.py">
+      <file leaf-file-name="List-ends.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/List-ends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,12 +56,32 @@
         <option value="$PROJECT_DIR$/List-overlap-comprehensions.py" />
         <option value="$PROJECT_DIR$/Rock-paper-scissors.py" />
         <option value="$PROJECT_DIR$/Check-primality-functions.py" />
+        <option value="$PROJECT_DIR$/List-ends.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -109,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Check-primality-functions">
+  <component name="RunManager" selected="Python.List-ends">
     <configuration name="Check-primality-functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +147,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Guessing-game-one" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="List-ends" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Guessing-game-one.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List-ends.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,18 +364,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Rock-paper-scissors" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Guessing-game-one" />
-      <item index="2" class="java.lang.String" itemvalue="Python.List-overlap" />
-      <item index="3" class="java.lang.String" itemvalue="Python.List-overlap-comprehensions" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Check-primality-functions" />
+      <item index="1" class="java.lang.String" itemvalue="Python.List-overlap" />
+      <item index="2" class="java.lang.String" itemvalue="Python.List-overlap-comprehensions" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Check-primality-functions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.List-ends" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Check-primality-functions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Rock-paper-scissors" />
-        <item index="2" class="java.lang.String" itemvalue="Python.List-overlap-comprehensions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.List-overlap" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Guessing-game-one" />
+        <item index="0" class="java.lang.String" itemvalue="Python.List-ends" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Check-primality-functions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Rock-paper-scissors" />
+        <item index="3" class="java.lang.String" itemvalue="Python.List-overlap-comprehensions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.List-overlap" />
       </list>
     </recent_temporary>
   </component>
@@ -403,13 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/String-lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String-lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -763,6 +776,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List-ends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
