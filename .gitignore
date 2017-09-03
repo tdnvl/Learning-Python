@@ -38,5 +38,4 @@ Thumbs.db
 
 # .idea folder #
 ################
-.idea/workspace.xml
-.idea/tasks.xml
+.idea/*
