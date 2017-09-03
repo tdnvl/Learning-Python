@@ -1,18 +1,15 @@
 # Ask for a phrase to revert
-phrase = str(input("Type a phrase to revert:\n>> "))
+user_phrase = str(input("Type a phrase to revert:\n>> "))
 
 # Split phrase into words
 def split_phrase(phrase):
-    words = phrase.split()
-    print(words)
+    return phrase.split()
 
-words = split_phrase(phrase)
-print(words)
+# Split the phrase typed by the user
+all_the_words = split_phrase(user_phrase)
+# Reverse the phrase
+all_the_words.reverse()
+# And now conctenate
+inverter_user_phrase = " ".join(all_the_words)
 
-# Revert the sequence of words
-inverted_phrase = []
-
-for i in range(3):
-    inverted_phrase.append(words[:-i])
-
-print(inverted_phrase)
+print("The inverted phrase is: " + inverter_user_phrase)
