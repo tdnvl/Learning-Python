@@ -6,5 +6,13 @@ def split_phrase(phrase):
     words = phrase.split()
     print(words)
 
-split_phrase(phrase)
+words = split_phrase(phrase)
+print(words)
 
+# Revert the sequence of words
+inverted_phrase = []
+
+for i in range(3):
+    inverted_phrase.append(words[:-i])
+
+print(inverted_phrase)
