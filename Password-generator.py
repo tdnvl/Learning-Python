@@ -12,12 +12,12 @@ while number <= n:
     number = number + 1
 
 print("This is your password: " + "".join(password))
-characters = open('characters.txt','rb+')
+characters = open('characters.txt','r')
 print("Reading from: " + characters.name)
 line = characters.read()
 chain = []
 chain.append(line[0])
 chain.append(line[1])
-chain.append(line[25])
+chain.append(line[3])
 print(chain)
 
