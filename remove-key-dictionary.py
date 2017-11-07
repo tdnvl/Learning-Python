@@ -3,8 +3,8 @@
 dic1 = {1: 123, 2: "adf", 3: "hello", 4: (1,2,3), 5: "bob", 6: 987, 7: 765, 8: 653, 9: 234}
 print(dic1)
 clef = int(input("Enter the key you want to remove... \n >> "))
-del dic1[clef]
-if clef in dic1.keys():
+if clef in dic1:
+    del dic1[clef]
     print("You removed key # " + str(clef) + " from your dictionary.")
     print(dic1)
 else:
