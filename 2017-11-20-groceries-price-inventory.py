@@ -6,3 +6,9 @@ for i in prices:
     print("price: ", prices[i])
     print("inventory: ", inventory[i])
     print("__________\n")
+
+total = 0;
+for i in prices:
+    print(prices[i]*inventory[i])
+    total = total + (prices[i]*inventory[i])
+print("The total is " + str(total))
