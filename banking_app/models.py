@@ -9,6 +9,9 @@ class BankAccount: # () not needed if we don't inherit
         n = 7
         self.account_number = ''.join(["%s" % randint(0, 9) for num in range(0, n)])
 
+    def __str__(self):
+        return "{}: {}".format(self.account_type,self.account_number)
+
     def withdraw(self,amount):
         self.balance -= amount
 
