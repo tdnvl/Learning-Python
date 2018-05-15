@@ -39,3 +39,9 @@ Thumbs.db
 # .idea folder #
 ################
 .idea/*
+
+
+# .ipynb_checkpoints folder #
+#############################
+
+.ipynb_checkpoints/*
